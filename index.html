@@ -773,104 +773,112 @@
                 </p>
             </div>
 
-            <!-- CV Category -->
-            <div class="mb-16">
-                <div class="text-center mb-10 scroll-animate">
-                    <h3 class="text-3xl font-bold text-primary mb-2">CV 제작 사례</h3>
-                    <p class="text-lg text-gray-600">이력서 및 경력 기반 포트폴리오</p>
-                </div>
+            <!-- Two Column Layout -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-                <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                    <!-- CV Sample 1: Facilities Engineer -->
-                    <div class="portfolio-card bg-white rounded-2xl shadow-lg overflow-hidden scroll-animate">
+                <!-- Left Column: CV Category -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg">
+                    <div class="text-center mb-6 scroll-animate">
+                        <h3 class="text-2xl font-bold text-primary mb-2">CV 제작 사례</h3>
+                        <p class="text-sm text-gray-600">이력서 및 경력 기반 포트폴리오</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <!-- CV Sample 1: Facilities Engineer -->
                         <div
-                            class="aspect-video bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center">
-                            <div class="text-white text-center p-8">
-                                <div class="text-5xl mb-4">🔧</div>
-                                <h4 class="text-2xl font-bold">설비 엔지니어</h4>
-                                <p class="text-sm opacity-90 mt-2">산업 엔지니어링 포트폴리오</p>
+                            class="portfolio-card bg-white rounded-xl shadow overflow-hidden scroll-animate border border-gray-100">
+                            <div
+                                class="h-32 bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center">
+                                <div class="text-white text-center">
+                                    <div class="text-3xl mb-1">🔧</div>
+                                    <h4 class="text-lg font-bold">설비 엔지니어</h4>
+                                    <p class="text-xs opacity-90">산업 엔지니어링 포트폴리오</p>
+                                </div>
+                            </div>
+                            <div class="p-3">
+                                <h3 class="text-base font-bold text-primary mb-1">Facilities Engineer Portfolio</h3>
+                                <p class="text-xs text-gray-600 mb-2">산업 설비 엔지니어를 위한 기술 중심 포트폴리오</p>
+                                <a href="https://portailor.github.io/website/" target="_blank"
+                                    class="btn-primary block text-center px-3 py-1.5 rounded-md text-xs font-bold">
+                                    보러가기
+                                </a>
                             </div>
                         </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold text-primary mb-2">Facilities Engineer Portfolio</h3>
-                            <p class="text-gray-600 mb-4">산업 설비 엔지니어를 위한 기술 중심 포트폴리오</p>
-                            <a href="https://portailor.github.io/website/" target="_blank"
-                                class="btn-primary block text-center px-4 py-2 rounded-md text-sm font-bold">
-                                보러가기
-                            </a>
-                        </div>
-                    </div>
 
-                    <!-- CV Sample 2: Education & Psychology Specialist -->
-                    <div class="portfolio-card bg-white rounded-2xl shadow-lg overflow-hidden scroll-animate">
+                        <!-- CV Sample 2: Education & Psychology Specialist -->
                         <div
-                            class="aspect-video bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-                            <div class="text-white text-center p-8">
-                                <div class="text-5xl mb-4">🎓</div>
-                                <h4 class="text-2xl font-bold">교육 및 심리 전문가</h4>
-                                <p class="text-sm opacity-90 mt-2">전문가 포트폴리오</p>
+                            class="portfolio-card bg-white rounded-xl shadow overflow-hidden scroll-animate border border-gray-100">
+                            <div
+                                class="h-32 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+                                <div class="text-white text-center">
+                                    <div class="text-3xl mb-1">🎓</div>
+                                    <h4 class="text-lg font-bold">교육 및 심리 전문가</h4>
+                                    <p class="text-xs opacity-90">전문가 포트폴리오</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold text-primary mb-2">Education & Psychology Specialist Portfolio
-                            </h3>
-                            <p class="text-gray-600 mb-4">교육 및 심리학 전문가를 위한 전문적인 포트폴리오</p>
-                            <a href="https://portailor.github.io/chloe/" target="_blank"
-                                class="btn-primary block text-center px-4 py-2 rounded-md text-sm font-bold">
-                                보러가기
-                            </a>
+                            <div class="p-3">
+                                <h3 class="text-base font-bold text-primary mb-1">Education & Psychology Specialist
+                                    Portfolio</h3>
+                                <p class="text-xs text-gray-600 mb-2">교육 및 심리학 전문가를 위한 전문적인 포트폴리오</p>
+                                <a href="https://portailor.github.io/chloe/" target="_blank"
+                                    class="btn-primary block text-center px-3 py-1.5 rounded-md text-xs font-bold">
+                                    보러가기
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Portfolio Category -->
-            <div class="bg-white rounded-3xl p-8 md:p-12 shadow-lg">
-                <div class="text-center mb-10 scroll-animate">
-                    <h3 class="text-3xl font-bold text-primary mb-2">Portfolio 제작 사례</h3>
-                    <p class="text-lg text-gray-600">디자이너, 사진작가, 모델 등의 포트폴리오</p>
-                </div>
+                <!-- Right Column: Portfolio Category -->
+                <div class="bg-white rounded-2xl p-6 shadow-lg">
+                    <div class="text-center mb-6 scroll-animate">
+                        <h3 class="text-2xl font-bold text-primary mb-2">Portfolio 제작 사례</h3>
+                        <p class="text-sm text-gray-600">디자이너, 사진작가, 모델 등의 포트폴리오</p>
+                    </div>
 
-                <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                    <!-- Portfolio Sample 1: Designer -->
-                    <div class="portfolio-card bg-white rounded-2xl shadow-lg overflow-hidden scroll-animate">
+                    <div class="space-y-4">
+                        <!-- Portfolio Sample 1: Designer -->
                         <div
-                            class="aspect-video bg-gradient-to-br from-pink-500 to-orange-500 flex items-center justify-center">
-                            <div class="text-white text-center p-8">
-                                <div class="text-5xl mb-4">🎨</div>
-                                <h4 class="text-2xl font-bold">Designer</h4>
-                                <p class="text-sm opacity-90 mt-2">Creative Portfolio</p>
+                            class="portfolio-card bg-white rounded-xl shadow overflow-hidden scroll-animate border border-gray-100">
+                            <div
+                                class="h-32 bg-gradient-to-br from-pink-500 to-orange-500 flex items-center justify-center">
+                                <div class="text-white text-center">
+                                    <div class="text-3xl mb-1">🎨</div>
+                                    <h4 class="text-lg font-bold">Designer</h4>
+                                    <p class="text-xs opacity-90">Creative Portfolio</p>
+                                </div>
+                            </div>
+                            <div class="p-3">
+                                <h3 class="text-base font-bold text-primary mb-1">Designer Portfolio</h3>
+                                <p class="text-xs text-gray-600 mb-2">디자이너를 위한 감각적인 포트폴리오</p>
+                                <a href="https://portailor.github.io/designer-yhy-demo/" target="_blank"
+                                    class="btn-primary block text-center px-3 py-1.5 rounded-md text-xs font-bold">
+                                    보러가기
+                                </a>
                             </div>
                         </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold text-primary mb-2">Designer Portfolio</h3>
-                            <p class="text-gray-600 mb-4">디자이너를 위한 감각적인 포트폴리오</p>
-                            <a href="https://portailor.github.io/designer-yhy-demo/" target="_blank"
-                                class="btn-primary block text-center px-4 py-2 rounded-md text-sm font-bold">
-                                보러가기
-                            </a>
-                        </div>
-                    </div>
 
-                    <!-- Coming Soon -->
-                    <div
-                        class="bg-white rounded-2xl shadow-lg overflow-hidden scroll-animate border-2 border-dashed border-gray-300">
-                        <div class="aspect-video bg-gray-100 flex items-center justify-center">
-                            <div class="text-gray-400 text-center p-8">
-                                <div class="text-5xl mb-4">✨</div>
-                                <h4 class="text-2xl font-bold">Coming Soon</h4>
+                        <!-- Coming Soon -->
+                        <div
+                            class="bg-white rounded-xl shadow overflow-hidden scroll-animate border-2 border-dashed border-gray-300">
+                            <div class="h-32 bg-gray-100 flex items-center justify-center">
+                                <div class="text-gray-400 text-center">
+                                    <div class="text-3xl mb-1">✨</div>
+                                    <h4 class="text-lg font-bold">Coming Soon</h4>
+                                </div>
                             </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold text-gray-400 mb-2">더 많은 사례 준비 중...</h3>
-                            <p class="text-gray-500 mb-4">곧 다양한 포트폴리오를 만나보실 수 있습니다</p>
-                            <button disabled
-                                class="bg-gray-200 text-gray-400 block text-center px-4 py-2 rounded-md text-sm font-bold w-full cursor-not-allowed">
-                                준비 중
-                            </button>
+                            <div class="p-3">
+                                <h3 class="text-base font-bold text-gray-400 mb-1">더 많은 사례 준비 중...</h3>
+                                <p class="text-xs text-gray-500 mb-2">곧 다양한 포트폴리오를 만나보실 수 있습니다</p>
+                                <button disabled
+                                    class="bg-gray-200 text-gray-400 block text-center px-3 py-1.5 rounded-md text-xs font-bold w-full cursor-not-allowed">
+                                    준비 중
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
