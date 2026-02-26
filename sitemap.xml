@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>oc>https://portailor.github.io/official</loc>astmod>2026-02-26</lastmod>hangefreq>weekly</changefreq><priority>1.0</priority></url>
-<url>oc>https://portailor.github.io/official/#services</loc>astmod>2026-02-26</lastmod>hangefreq>monthly</changefreq><priority>0.9</priority></url>
-<url>oc>https://portailor.github.io/official/#process</loc>astmod>2026-02-26</lastmod>hangefreq>monthly</changefreq><priority>0.9</priority></url>
-<url>oc>https://portailor.github.io/official/#features</loc>astmod>2026-02-26</lastmod>hangefreq>monthly</changefreq><priority>0.8</priority></url>
-<url>oc>https://portailor.github.io/official/#portfolio</loc>astmod>2026-02-26</lastmod>hangefreq>weekly</changefreq><priority>0.9</priority></url>
-<url>oc>https://portailor.github.io/official/#pricing</loc>astmod>2026-02-26</lastmod>hangefreq>monthly</changefreq><priority>0.9</priority></url>
-<url>oc>https://portailor.github.io/website-demo</loc>astmod>2026-02-26</lastmod>hangefreq>monthly</changefreq><priority>0.8</priority></url>
-<url>oc>https://portailor.github.io/chloe</loc>astmod>2026-02-26</lastmod>hangefreq>monthly</changefreq><priority>0.8</priority></url>
-<url>oc>https://portailor.github.io/wonbin</loc>astmod>2026-02-26</lastmod>hangefreq>monthly</changefreq><priority>0.8</priority></url>
-<url>oc>https://portailor.github.io/designer-yhy-demo</loc>astmod>2026-02-26</lastmod>hangefreq>monthly</changefreq><priority>0.8</priority></url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://portailor.github.io/official/</loc>
+  <lastmod>2026-02-26T13:09:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://portailor.github.io/website-demo/</loc>
+  <lastmod>2026-01-15T09:54:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portailor.github.io/chloe/</loc>
+  <lastmod>2026-01-13T13:48:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portailor.github.io/wonbin/</loc>
+  <lastmod>2026-01-16T13:44:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portailor.github.io/designer-yhy-demo/</loc>
+  <lastmod>2026-01-16T13:45:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
