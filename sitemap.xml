@@ -50,7 +50,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- 포트폴리오 샘플들 -->
+  <!-- 포트폴리오 샘플 1 -->
   <url>
     oc>https://portailor.github.io/website-demo</loc>
     astmod>2026-02-26</lastmod>
@@ -58,6 +58,7 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- 포트폴리오 샘플 2 -->
   <url>
     oc>https://portailor.github.io/chloe</loc>
     astmod>2026-02-26</lastmod>
@@ -65,6 +66,7 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- 포트폴리오 샘플 3 -->
   <url>
     oc>https://portailor.github.io/wonbin</loc>
     astmod>2026-02-26</lastmod>
@@ -72,6 +74,7 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- 포트폴리오 샘플 4 -->
   <url>
     oc>https://portailor.github.io/designer-yhy-demo</loc>
     astmod>2026-02-26</lastmod>
