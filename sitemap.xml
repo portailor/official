@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://portailor.github.io/official/</loc>
-  <lastmod>2026-03-03T05:26:44+00:00</lastmod>
+  <lastmod>2026-03-03</lastmod>
+  <priority>1.0</priority>
 </url>
-
-
+<url>
+  <loc>https://portailor.github.io/website-demo/</loc>
+  <lastmod>2026-01-15</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://portailor.github.io/chloe/</loc>
+  <lastmod>2026-01-13</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://portailor.github.io/wonbin/</loc>
+  <lastmod>2026-01-16</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://portailor.github.io/designer-yhy-demo/</loc>
+  <lastmod>2026-01-16</lastmod>
+  <priority>0.8</priority>
+</url>
 </urlset>
